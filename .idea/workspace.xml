@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690b7bad-2be0-43d0-b2e8-f84b52193812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/datasets/MarathonData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/train_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_model/regression_model/trained_models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathon_prediction_time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/marathon_prediction_time.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_model/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/regression_model/regression_model/datasets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/regression_model/regression_model/processing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
