@@ -16,10 +16,11 @@ def run_training() -> None:
         data[config.FEATURES], data[config.TARGET], test_size=0.1, random_state=0
     )  # we are setting the seed here
 
-    pipeline.price_pipe.fit(X_train[config.FEATURES], y_train)
+    pipeline.marathon_pipeline.fit(X_train[config.FEATURES], y_train)
 
-    save_pipeline(pipeline_to_persist=pipeline.price_pipe)
+    save_pipeline(pipeline_to_persist=pipeline.marathon_pipeline)
 
 
 if __name__ == "__main__":
+    print("Training pipeline...")
     run_training()

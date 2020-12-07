@@ -1,6 +1,5 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import MinMaxScaler
 
 from regression_model.processing import preprocessors as pp
 from regression_model.config import config
@@ -21,7 +20,7 @@ marathon_pipeline = Pipeline(
         ),
         (
             "regressor",
-            RandomForestRegressor(max_depth=4, n_estimators=100, random_sate=0)
+            RandomForestRegressor(max_depth=4, n_estimators=100, random_state=0)
         )
     ]
 )

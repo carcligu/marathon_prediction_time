@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-from sklearn.base import BaseEstimator, TrasnformerMixin
+from sklearn.base import BaseEstimator
+from sklearn.base import TransformerMixin
 
-
-class CategoricalImputer(BaseEstimator, TrasnformerMixin):
+class CategoricalImputer(BaseEstimator, TransformerMixin):
     #Imputer for missing categorical data
 
     def __init__(self, variables=None) -> None:
@@ -26,7 +26,7 @@ class CategoricalImputer(BaseEstimator, TrasnformerMixin):
         return X
 
 
-class RareLabelCategoricalEncoder(BaseEstimator, TrasnformerMixin):
+class RareLabelCategoricalEncoder(BaseEstimator, TransformerMixin):
     #Creates 'Rare' category for unfrequent labels
     def __init__(self, tol=0.05, variables=None):
         self.tol = tol
