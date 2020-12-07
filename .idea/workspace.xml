@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690b7bad-2be0-43d0-b2e8-f84b52193812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regression_model/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/marathon_prediction_time.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/marathon_prediction_time.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marathon_prediction_time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/marathon_prediction_time.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/regression_model/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/regression_model/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/data_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/regression_model/processing/data_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/preprocessors.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/regression_model/processing/preprocessors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/train_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/regression_model/train_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/regression_model/regression_model/processing" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,5 +89,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1864" y="-11" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607281234222">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="1864" y="-11" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.792/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1607281234222" />
+    <state x="1909" y="-34" key="SettingsEditor" timestamp="1607281370823">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="-34" key="SettingsEditor/0.23.1440.792/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1607281370823" />
   </component>
 </project>
