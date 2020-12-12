@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from regression_model import pipeline
 from regression_model.processing.data_management import load_dataset, save_pipeline
 from regression_model.config import config
+from regression_model.predict import make_prediction
 
 
 def run_training() -> None:
@@ -20,6 +21,15 @@ def run_training() -> None:
 
     save_pipeline(pipeline_to_persist=pipeline.marathon_pipeline)
 
+    print("########################################")
+    print("Test prediction: ")
+
+    test_data = load_dataset(file_name='test.csv')
+    single_test_json = test_data[0:1].to_json(orient='records')
+
+    # When
+    subject = make_prediction(input_data=single_test_json)
+    print(subject)
 
 if __name__ == "__main__":
     print("Training pipeline...")
