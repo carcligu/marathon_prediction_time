@@ -3,6 +3,11 @@ import joblib
 from sklearn.pipeline import Pipeline
 
 from regression_model.config import config
+from regression_model import __version__ as _version
+
+import logging
+
+_logger = logging.getLogger(__name__)
 
 def load_dataset(*, file_name: str) -> pd.DataFrame:
     _data = pd.read_csv(f"{config.DATASET_DIR}/{file_name}")
@@ -12,7 +17,7 @@ def load_dataset(*, file_name: str) -> pd.DataFrame:
 def save_pipeline(*, pipeline_to_persist) -> None:
 
     # prepare versioned save file name
-    save_file_name = f"{config.PIPELINE_SAVE_FILE}.pkl"
+    save_file_name = f"{config.PIPELINE_SAVE_FILE}{_version}.pkl"
     save_path = config.TRAINED_MODEL_DIR / save_file_name
 
     remove_old_pipelines(files_to_keep=save_file_name)

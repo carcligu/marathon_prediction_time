@@ -20,33 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690b7bad-2be0-43d0-b2e8-f84b52193812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/VERSION" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathon_prediction_time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/marathon_prediction_time.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/.tox/.package.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/config/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/config/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/config/logging_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/datasets/MarathonData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/datasets/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/datasets/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/data_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/features.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/preprocessors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/processing/validation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/train_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/trained_models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/regression_model/trained_models/marathon_regression_output_v.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/config/logging_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/config/logging_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/data_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/data_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/processing/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/train_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/regression_model/regression_model/train_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/regression_model/regression_model/trained_models/marathon_regression_output_v.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +61,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/regression_model/regression_model" />
+      <recent name="$PROJECT_DIR$/regression_model" />
+      <recent name="$PROJECT_DIR$/regression_model/regression_model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/regression_model/regression_model/processing" />
       <recent name="$PROJECT_DIR$/regression_model/regression_model/datasets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/regression_model" />
-      <recent name="$PROJECT_DIR$/regression_model/regression_model" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,10 +129,10 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1864" y="-11" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.792/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1607281234222" />
-    <state x="2145" y="136" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607365100651">
+    <state x="2145" y="136" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607792739804">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
-    <state x="2145" y="136" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.792/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1607365100651" />
+    <state x="2145" y="136" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.792/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1607792739804" />
     <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1607789624822">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>

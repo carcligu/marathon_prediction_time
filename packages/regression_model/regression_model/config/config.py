@@ -17,6 +17,8 @@ CATEGORICAL_VARS = ['Category', 'CrossTraining']
 
 FEATURES = ['Category', 'km4week', 'sp4week', 'CrossTraining']
 
+VARS_NA_NOT_ALLOWED = ['km4week', 'sp4week']
+
 PIPELINE_NAME = "marathon_regression"
 PIPELINE_SAVE_FILE = f"{PIPELINE_NAME}_output_v"
 
