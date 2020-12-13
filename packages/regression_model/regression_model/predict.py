@@ -29,3 +29,18 @@ def make_prediction(*, input_data) -> dict:
     )
 
     return results
+
+def make_prediction_django(*, input_data) -> dict:
+    data = pd.DataFrame(input_data, index=[0])
+    validated_data = validate_inputs(input_data=data)
+    prediction = _pipe.predict(validated_data[config.FEATURES])
+
+    results = {"predictions": prediction, "version": _version}
+
+    _logger.info(
+        f"Making predictions with model version: {_version} "
+        f"Inputs: {validated_data[config.FEATURES]} "
+        f"Predictions: {results}"
+    )
+
+    return results

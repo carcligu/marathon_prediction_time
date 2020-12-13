@@ -14,7 +14,7 @@ _logger = logging.getLogger(__name__)
 
 def run_training() -> None:
     """Train the model."""
-
+    _logger.info(f"training the pipeline with version: {_version}")
     # read training data
     data = load_dataset(file_name=config.DATA_FILE)
 
