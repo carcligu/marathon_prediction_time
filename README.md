@@ -2,6 +2,10 @@
 
 This notebook responds to a Dataset on Kaggle: https://www.kaggle.com/girardi69/marathon-time-predictions
 
+# Disclaimer
+
+The main objective of this repo is to create a ML model that can be easily deployed via Heroku and Django. Thus, the preprocessing, feature and model selection are not optimized!
+
 # Limitations
 
 * Data is very limited, in terms of quantity and relevant data. There are less than 100 rows and less than 10 columns
